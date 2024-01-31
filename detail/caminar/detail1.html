@@ -11,64 +11,265 @@
 
 				<!-- One -->
 					<section id="one" class="wrapper style1"><div class="image fit flush">
-							<img src="../../images/thumbs/01.jpg" alt="" width="1177" height="443"></div>
-						<header class="special"><h2>Atonement</h2>
-							<p>한예린</p>
-						</header><div class="content">
-							<p>1935년 영국, 부유한 집안의 아름다운 딸 세실리아는 시골 저택에서 여름을 보내던 중 집사의 아들이자 명문대 의대생 로비와 마주친다. 어릴 때부터 서로에게 애틋한 마음이 있었지만 쉽게 마음을 고백하지 못하던 이들은 그날 밤 서로의 사랑을 확인한다. 하지만 세실리아의 동생 브라이오니는 로비를 남몰래 사랑한 나머지 로비에게 누명을 쓰게 하고 로비는 전쟁터로 끌려간다. 이후 운명이 엇갈리며 둘 간의 비극이 시작된다. </p>
-							<p>이 그림은 영화 Atonement의 한 장면으로, 꽃병을 한 손에 든 채 다른 한 손으로는 담배를 들고 있는 세실리아의 모습을 그렸다. 따스한 여름날 로비의 담배를 받은 세실리아는 어렸을 때의 기억을 떠올리며 로비와 한층 더 가까워지고 있다. 앞서 설명한 배경과 인물의 스토리를 참고하여 이 작품을 바라보면서 세실리아의 풋풋하고 진실된 사랑을 느끼길 바란다</p>
+						
+						<header class="special">
 							
-						</div>
-					
-					<!-- </section><section id="two" class="wrapper style2"><header><h2>Vestibulum Convallis</h2>
-							<p>vehicula urna sed justo bibendum</p>
-						</header><div class="content">
-							<div class="gallery">
-								<div>
-									<div class="image fit flush">
-										<a href="images/pic03.jpg"><img src="images/pic03.jpg" alt="" width="600" height="300"></a>
-									</div>
-								</div>
-								<div>
-									<div class="image fit flush">
-										<a href="images/pic01.jpg"><img src="images/pic01.jpg" alt="" width="600" height="300"></a>
-									</div>
-								</div>
-								<div>
-									<div class="image fit flush">
-										<a href="images/pic04.jpg"><img src="images/pic04.jpg" alt="" width="600" height="300"></a>
-									</div>
-								</div>
-								<div>
-									<div class="image fit flush">
-										<a href="images/pic05.jpg"><img src="images/pic05.jpg" alt="" width="600" height="300"></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section><section id="three" class="wrapper"><div class="spotlight">
-							<div class="image flush"><img src="images/pic06.jpg" alt="" width="700" height="525"></div>
-							<div class="inner">
-								<h3>Viverra Hendrerit</h3>
-								<p>Curabitur eget semper ante. Morbi eleifend ultricies est, a blandit diam vehicula vel. Vestibulum porttitor nisi quis viverra hendrerit. Suspendisse vel volutpat nibh, vel elementum lacus. Maecenas commodo pulvinar dui, at cursus metus imperdiet vel.</p>
-							</div>
-						</div>
-						<div class="spotlight alt">
-							<div class="image flush"><img src="images/pic07.jpg" alt="" width="700" height="525"></div>
-							<div class="inner">
-								<h3>Curabitur Eget</h3>
-								<p>Curabitur eget semper ante. Morbi eleifend ultricies est, a blandit diam vehicula vel. Vestibulum porttitor nisi quis viverra hendrerit. Suspendisse vel volutpat nibh, vel elementum lacus. Maecenas commodo pulvinar dui, at cursus metus imperdiet vel.</p>
-							</div>
-						</div>
-						<div class="spotlight">
-							<div class="image flush"><img src="images/pic08.jpg" alt="" width="700" height="525"></div>
-							<div class="inner">
-								<h3>Morbi Eleifend</h3>
-								<p>Curabitur eget semper ante. Morbi eleifend ultricies est, a blandit diam vehicula vel. Vestibulum porttitor nisi quis viverra hendrerit. Suspendisse vel volutpat nibh, vel elementum lacus. Maecenas commodo pulvinar dui, at cursus metus imperdiet vel.</p>
-							</div>
-						</div>
-					</section></div> -->
+						
+							<div id="spStrap" sp-contents class="initialize" spstrap>
+								<style>
+								/*!
+								 * spStrap font
+								 */
+								@import url("https://fonts.googleapis.com/css2?&family=Roboto:wght@300%3B700&display=swap");
+								@import url("https://fonts.googleapis.com/css2?&family=Noto+Sans+KR:wght@300%3B500&display=swap");
+								#spStrap[sp-contents],
+								#spStrap [sp-contents] { font-family:Roboto,Noto Sans KR,'Apple SD Gothic Neo', 'arial', 'sans-serif', 'serif', 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji'; }
+								#spStrap [sp-fontfamily="main"] { font-family:Roboto, 'Apple SD Gothic Neo', 'arial', 'sans-serif', 'serif', 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji'; }
+								#spStrap [sp-fontfamily="sub"] { font-family:Noto Sans KR, 'Apple SD Gothic Neo', 'arial', 'sans-serif', 'serif', 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji'; }
+								
+								/*!
+								 * Mocanvas
+								 * @license https://www.mocanvas.com
+								 * @min-width : Samsung Galaxy S, Apple iPhone 5 (5c, 5s)
+								 */
+								
+								/*!
+								 * Container Buildup
+								 */
+								#spStrap *:not(i) { font-family:inherit; }
+								
+								[spStrap] { min-width:320px; color:#333; line-height:1.4; position:relative; overflow:hidden; }
+								[spStrap], [spStrap] * { -webkit-box-sizing : border-box !important; -khtml-box-sizing : border-box !important; -moz-box-sizing : border-box !important; -ms-box-sizing : border-box !important; -o-box-sizing : border-box !important; box-sizing : border-box !important; }
+								[spStrap] [sp-trans],
+								[spStrap] [sp-trans]:before,
+								[spStrap] [sp-trans]:after {
+									-webkit-perspective : 1000; -moz-perspective : 1000; -o-perspective : 1000; perspective : 1000;
+									-webkit-backface-visibility : hidden; -khtml-backface-visibility : hidden; -moz-backface-visibility : hidden; -ms-backface-visibility : hidden; -o-backface-visibility : hidden; backface-visibility : hidden;
+									-webkit-transition : all 300ms ease; -khtml-transition : all 300ms ease; -moz-transition : all 300ms ease; -ms-transition : all 300ms ease; -o-transition : all 300ms ease; transition : all 300ms ease;
+								}
+								
+								[spStrap] * { line-height:inherit; }
+								[spStrap] [sp-size] { width:1000px; min-width:320px; position:relative; margin-left:auto; margin-right:auto; }
+								[spStrap] ol, [spStrap] li, [spStrap] ul { padding:0; margin:0; list-style:none; }
+								/*!
+								 * Element Reset
+								 */
+								[spStrap] a, [spStrap] img, [spStrap] table, [spStrap] div:not([sp-overbox]), [spStrap] span, [spStrap] iframe, [spStrap] ul, [spStrap] li { max-width:100%; }
+								[spStrap] [sp-resize] { font-size:0; } [spStrap] [sp-resize] img { width:100%; } [spStrap] div[sp-resize] { margin:0 auto; }
+								[spStrap] [sp-resize] { display:inline-block; display:inline-flex; vertical-align:middle; }
+								[spStrap] [sp-edit] { position:relative; } [spStrap] span[sp-edit] { display:inline-block; }
+								[spStrap] div[sp-edit]:not([sp-line])::after { clear:both; content:' '; display:block; font-size:0; height:0; line-height:0; visibility:hidden; }
+								[spStrap] [sp-edit="text"] { cursor:auto; word-break:break-all; }
+								[spStrap] [sp-edit] > span { display:inline-block; vertical-align:middle; }
+								[spStrap] [sp-scroll] { overflow:auto; }
+								[spStrap] a[sp-edit], [spStrap] a { position:relative; display:inline-block; display:inline-flex; vertical-align:middle; }
+								[spStrap] a, [spStrap] a { color:inherit; text-decoration:none; }
+								[spStrap] [sp-clear]:after { content:' '; clear:both; display:block; font-size:0; height:0; line-height:0; visibility:hidden; }
+								[spStrap] [sp-inlinebox], [spStrap] [sp-edit$="_button"] { font-size:0; }
+								[spStrap] table, [spStrap] thead, [spStrap] tbody, [spStrap] tfoot, [spStrap] tr, [spStrap] th, [spStrap] td {
+									border-collapse: inherit;
+									border-spacing: 0;
+									border-color: inherit;
+									vertical-align: inherit;
+									text-align: left;
+									font-weight: inherit;
+									-webkit-border-horizontal-spacing: 0;
+									-webkit-border-vertical-spacing: 0;
+								}
+								
+								[spStrap] img[sp-edit] { display:inline-block; vertical-align:middle; vertical-align:super; }
+								[spStrap] [sp-line] { position:relative; text-indent:-9999px; line-height:0 !important; }
+								[spStrap] [sp-line]:before { content:'.'; }
+								[spStrap] [sp-line]:after { content:''; z-index:1; position:absolute; top:-5px; right:0; bottom:-5px; left:0; }
+								[spStrap] [sp-table-editor] { width:100%; border-collapse:collapse; border-spacing:0; margin:0 auto; }
+								[spStrap] [sp-table-editor] td { min-width:15px; word-break: break-all; position:relative; }
+								
+								/* Video PC, Mobile Ratio Buildup */
+								[spStrap] [sp-videoframe] { position: relative; padding-bottom:56.25%; /* 16:9 비율인 경우 */ height:0; }
+								[spStrap] [sp-videoframe="4:3"] { padding-bottom:75%; }
+								[spStrap] [sp-videoframe] iframe { position: absolute; top:0; left:0; width:100%; height:100%; }
+								[spStrap] [sp-ratio] { position:relative; }
+								[spStrap] [sp-ratio="1:1"] { padding-bottom:100%; }
+								[spStrap] [sp-ratio="1:2"] { padding-bottom:200%; }
+								[spStrap] [sp-ratio="2:1"] { padding-bottom:50%; }
+								
+								/*!
+								 * Set Font Attribute
+								 */
+								[spStrap] [sp-font="7"]  { font-size:0.7rem; }
+								[spStrap] [sp-font="8"]  { font-size:0.8rem; }
+								[spStrap] [sp-font="9"]  { font-size:0.9rem; }
+								[spStrap] [sp-font="10"] { font-size:1.0rem; }
+								[spStrap] [sp-font="11"] { font-size:1.1rem; }
+								[spStrap] [sp-font="12"] { font-size:1.2rem; }
+								[spStrap] [sp-font="13"] { font-size:1.3rem; }
+								[spStrap] [sp-font="14"] { font-size:1.4rem; }
+								[spStrap] [sp-font="15"] { font-size:1.5rem; }
+								[spStrap] [sp-font="16"] { font-size:1.6rem; }
+								[spStrap] [sp-font="17"] { font-size:1.7rem; }
+								[spStrap] [sp-font="18"] { font-size:1.8rem; }
+								[spStrap] [sp-font="19"] { font-size:1.9rem; }
+								[spStrap] [sp-font="20"] { font-size:2.0rem; }
+								[spStrap] [sp-font="25"] { font-size:2.5rem; }
+								[spStrap] [sp-font="30"] { font-size:3.0rem; }
+								[spStrap] [sp-font="35"] { font-size:3.5rem; }
+								[spStrap] [sp-font="40"] { font-size:4.0rem; }
+								[spStrap] [sp-font="45"] { font-size:4.5rem; }
+								[spStrap] [sp-font="50"] { font-size:5.0rem; }
+								[spStrap] [sp-font="55"] { font-size:5.5rem; }
+								[spStrap] [sp-font="60"] { font-size:6.0rem; }
+								[spStrap] [sp-less="pc"] { display:none; }
+								[spStrap] [sp-only="tablet"], [spStrap] [sp-only="mobile"] { display:none; }
+								
+								/*!
+								 * Responsive Tablet, Mobile Size
+								 */
+								@media screen and ( min-width:601px ) and ( max-width:1024px ){
+								
+									[spStrap] { line-height:1.3; }
+									[spStrap] [sp-size]		  { width:auto; }
+									[spStrap] [sp-font="7"]   { font-size:0.70rem }
+									[spStrap] [sp-font="8"]   { font-size:0.80rem }
+									[spStrap] [sp-font="9"]   { font-size:0.89rem }
+									[spStrap] [sp-font="10"]  { font-size:0.99rem }
+									[spStrap] [sp-font="11"]  { font-size:1.08rem }
+									[spStrap] [sp-font="12"]  { font-size:1.17rem }
+									[spStrap] [sp-font="13"]  { font-size:1.26rem }
+									[spStrap] [sp-font="14"]  { font-size:1.35rem }
+									[spStrap] [sp-font="15"]  { font-size:1.44rem }
+									[spStrap] [sp-font="16"]  { font-size:1.53rem }
+									[spStrap] [sp-font="17"]  { font-size:1.62rem }
+									[spStrap] [sp-font="18"]  { font-size:1.70rem }
+									[spStrap] [sp-font="19"]  { font-size:1.79rem }
+									[spStrap] [sp-font="20"]  { font-size:1.87rem }
+									[spStrap] [sp-font="25"]  { font-size:2.33rem }
+									[spStrap] [sp-font="30"]  { font-size:2.78rem }
+									[spStrap] [sp-font="35"]  { font-size:3.22rem }
+									[spStrap] [sp-font="40"]  { font-size:3.66rem }
+									[spStrap] [sp-font="45"]  { font-size:4.10rem }
+									[spStrap] [sp-font="50"]  { font-size:4.53rem }
+									[spStrap] [sp-font="55"]  { font-size:4.95rem }
+									[spStrap] [sp-font="60"]  { font-size:5.37rem }
+									[spStrap] [sp-tab="20"] { display:inline-block !important; width:20% !important; }
+									[spStrap] [sp-tab="25"] { display:inline-block !important; width:25% !important; }
+									[spStrap] [sp-tab="33"] { display:inline-block !important; width:33.333% !important; }
+									[spStrap] [sp-tab="50"] { display:inline-block !important; width:50% !important; }
+									[spStrap] [sp-tab="100"] { display:block !important; width:initial !important; }
+									[spStrap] [sp-less="tablet"] { display:none; }
+									[spStrap] [sp-only="pc"], [spStrap] [sp-only="mobile"] { display:none; }
+									[spStrap] [sp-table-editor] { width:100% !important; min-width:unset !important; }
+								
+								}
+								@media screen and ( min-width:1px ) and ( max-width:601px ){
+								
+									[spStrap] { line-height:1.2; }
+									[spStrap] [sp-size]		  { width:auto; }
+									[spStrap] [sp-font="7"]   { font-size:0.70rem }
+									[spStrap] [sp-font="8"]   { font-size:0.79rem }
+									[spStrap] [sp-font="9"]   { font-size:0.88rem }
+									[spStrap] [sp-font="10"]  { font-size:0.97rem }
+									[spStrap] [sp-font="11"]  { font-size:1.06rem }
+									[spStrap] [sp-font="12"]  { font-size:1.14rem }
+									[spStrap] [sp-font="13"]  { font-size:1.22rem }
+									[spStrap] [sp-font="14"]  { font-size:1.30rem }
+									[spStrap] [sp-font="15"]  { font-size:1.38rem }
+									[spStrap] [sp-font="16"]  { font-size:1.46rem }
+									[spStrap] [sp-font="17"]  { font-size:1.53rem }
+									[spStrap] [sp-font="18"]  { font-size:1.61rem }
+									[spStrap] [sp-font="19"]  { font-size:1.68rem }
+									[spStrap] [sp-font="20"]  { font-size:1.75rem }
+									[spStrap] [sp-font="25"]  { font-size:2.16rem }
+									[spStrap] [sp-font="30"]  { font-size:2.57rem }
+									[spStrap] [sp-font="35"]  { font-size:2.96rem }
+									[spStrap] [sp-font="40"]  { font-size:3.35rem }
+									[spStrap] [sp-font="45"]  { font-size:3.73rem }
+									[spStrap] [sp-font="50"]  { font-size:4.10rem }
+									[spStrap] [sp-font="55"]  { font-size:4.46rem }
+									[spStrap] [sp-font="60"]  { font-size:4.81rem }
+									[spStrap] [sp-mob="20"] { display:inline-block !important; width:20% !important; }
+									[spStrap] [sp-mob="25"] { display:inline-block !important; width:25% !important; }
+									[spStrap] [sp-mob="33"] { display:inline-block !important; width:33.333% !important; }
+									[spStrap] [sp-mob="50"] { display:inline-block !important; width:50% !important; }
+									[spStrap] [sp-mob="100"] { display:block !important; width:initial !important; position:initial !important; }
+									[spStrap] [sp-less="mobile"] { display:none; }
+									[spStrap] [sp-only="pc"], [spStrap] [sp-only="tablet"] { display:none; }
+									[spStrap] [sp-scale^="mob"] {
+										-webkit-transform : scale(.9);
+										   -moz-transform : scale(.9);
+											-ms-transform : scale(.9);
+											 -o-transform : scale(.9);
+												transform : scale(.9);
+									}
+									[spStrap] [sp-scale*="-tl"] { transform-origin:top left; }
+									[spStrap] [sp-scale*="-tc"] { transform-origin:top center; }
+									[spStrap] [sp-scale*="-tr"] { transform-origin:top right; }
+									[spStrap] [sp-scale*="-ml"] { transform-origin:center left; }
+									[spStrap] [sp-scale*="-mc"] { transform-origin:center center; }
+									[spStrap] [sp-scale*="-mr"] { transform-origin:center right; }
+									[spStrap] [sp-scale*="-bl"] { transform-origin:bottom left; }
+									[spStrap] [sp-scale*="-bc"] { transform-origin:bottom center; }
+									[spStrap] [sp-scale*="-br"] { transform-origin:bottom right; }
+									[spStrap] [sp-table-editor] { width:100% !important; min-width:unset !important; }
+								
+								}
+								
+									/*-------------------------------------------------------------------------
+									|   Code : E844D80A94
+									|-------------------------------------------------------------------------*/
+									[spStrap] .mo-E844D80A94 {  }
+								
+									[spStrap] .mo-E844D80A94--box { display:table; table-layout:fixed; width:100%; }
+									[spStrap] .mo-E844D80A94--inner { display:table-cell; vertical-align:top; }
+									[spStrap] .mo-E844D80A94--deco { z-index:3; }
+								
+									/* 
+										Responsive 
+									*/
+									[spStrap][device="mobile"] .mo-E844D80A94--deco { position:absolute !important; width:20% !important; top:3rem; right:3rem; }
+									@media screen and ( min-width:1px ) and ( max-width:1024px ){
+								
+										/**/
+										[spStrap] .mo-E844D80A94--deco { position:absolute !important; width:20% !important; top:3rem; right:3rem; }
+								
+									}
+								</style>		
+															
+													
+								<div class="mo-E844D80A94 initialize" sp-edit="box" sp-sort-nodrop="fixed" area="before">
 
+									<div sp-edit="box" sp-size class="initialize">
+											<div class="mo-E844D80A94--inner initialize" sp-edit="box" sp-sort-nodrop="element" sp-tab="100" sp-mob="100" style="width: 60%; padding: 3rem; text-align: left;" area="after" draggable="false">
+								
+												<div sp-edit="box" style="padding:0 0 3rem 0;" class="initialize" draggable="false" area="before">
+													<a href="#!" sp-edit="image_button" sp-resize style="width:100%;" class="initialize" draggable="false">
+														<img src="../../images/thumbs/01.jpg" sp-edit="image" style="width:100%;" class="initialize" draggable="false"></a>
+												</div>
+								
+												<div sp-edit="text" class="initialize" draggable="false" area="before"><span sp-font="18" style="color:#a2715d;" draggable="false"><b draggable="false">한예린</b></span><br draggable="false"><span sp-font="18" style="color:#a2715d;" draggable="false"><b draggable="false">Atonement</b></span></div>
+								
+												<div sp-edit="box" sp-sort-nodrop="fixed" style="padding:1rem 0;text-align:center;" class="initialize" draggable="false" area="before">
+													<div sp-edit="box" sp-line style="width:1.1%;min-width:31px;border-top:.25rem solid #a2715d;" class="initialize" draggable="false">‧</div>
+												</div>
+								
+												<div sp-edit="box" style="padding:3rem 0 0 0;font-size:0;" class="initialize" draggable="false">
+													<div sp-edit="text" sp-mob="100" style="padding:1rem 2rem 1rem 0;font-size:.7rem;display:inline-block;width:50%;vertical-align:top;" class="initialize" area="before" draggable="false"><span sp-font="13" style="color:#a2715d;" draggable="false"><b draggable="false">작품정보 요약</b></span><br draggable="false"><br draggable="false"><span sp-font="10" style="color:#999;" draggable="false">1935년 영국, 부유한 집안의 아름다운 딸 세실리아는 시골 저택에서 여름을 보내던 중 집사의 아들이자 명문대 의대생 로비와 마주친다. 어릴 때부터 서로에게 애틋한 마음이 있었지만 쉽게 마음을 고백하지 못하던 이들은 그날 밤 서로의 사랑을 확인한다. 하지만 세실리아의 동생 브라이오니는 로비를 남몰래 사랑한 나머지 로비에게 누명을 쓰게 하고 로비는 전쟁터로 끌려간다. 이후 운명이 엇갈리며 둘 간의 비극이 시작된다.<br><br>이 그림은 영화 Atonement의 한 장면으로, 꽃병을 한 손에 든 채 다른 한 손으로는 담배를 들고 있는 세실리아의 모습을 그렸다. 따스한 여름날 로비의 담배를 받은 세실리아는 어렸을 때의 기억을 떠올리며 로비와 한층 더 가까워지고 있다. 앞서 설명한 배경과 인물의 스토리를 참고하여 이 작품을 바라보면서 세실리아의 풋풋하고 진실된 사랑을 느끼길 바란다</span></div>
+													<div sp-edit="text" sp-mob="100" style="padding:1rem 2rem 1rem 0;font-size:.7rem;display:inline-block;width:50%;vertical-align:top;" class="initialize" draggable="false" area="after"><span sp-font="13" style="color:#a2715d;" draggable="false"><b draggable="false">투자정보 요약</b></span><br draggable="false"><br draggable="false"><span sp-font="10" style="color:#a2715d;" draggable="false"><b draggable="false">감정가 : 1,800,000</b></span><br draggable="false"><br draggable="false"><span sp-font="10" style="color:#999;" draggable="false">3회 낙찰 평균가 : 1,500,000 <br> 가치상승률 : 16%</span></div>
+												</div>
+								
+											</div>
+								
+									</div>		
+									<div sp-edit="box" sp-inlinebox sp-sort-nodrop="element" style="font-size:0;text-align:center;" class="initialize" draggable="false" area="after">
+										<a href="#!" class="mo-ECF8B875A9 initialize" sp-edit="button" sp-font="10" sp-sortable-inline style="font-size: 0.7rem; margin: 0.5rem; display: inline-block; padding: 0.9rem 2rem; background-color: rgba(182, 52, 31, 0.87); border-radius: 0.3rem; letter-spacing: 0.1rem;" area="before" draggable="false"><span sp-font="8" style="color:#fff;" draggable="false"><b draggable="false">작품정보 확인</b></span></a><a href="#!" class="mo-ECF8B875A9 initialize" sp-edit="button" sp-font="10" sp-sortable-inline style="font-size: 0.7rem; margin: 0.5rem; display: inline-block; padding: 0.9rem 2rem; background-color: rgba(182, 52, 31, 0.87); border-radius: 0.3rem; letter-spacing: 0.1rem;" area="before" draggable="false"><span sp-font="8" style="color:#fff;" draggable="false"><b draggable="false">투자정보 확인</b></span></a>
+									</div>
+										
+										
+											
+									<div sp-edit="box" sp-inlinebox sp-sort-nodrop="element" style="font-size:0;text-align:center;" class="initialize">
+										<a href="#!" class="mo-ECF8B875A9 initialize" sp-edit="button" sp-font="10" sp-sortable-inline style="font-size: .7rem; margin:.5rem;display:inline-block;padding:.9rem 2rem;background-color:#d47500;border-radius:.3rem;letter-spacing:.1rem;"><span sp-font="8" style="color:#ffffff;"><b>작품 구매하러가기</b></span></a></div>	
+									</div>
+
+								</div>			
 			</section><!-- Footer --><footer id="footer"><div class="container">
 					<ul class="icons"><li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
